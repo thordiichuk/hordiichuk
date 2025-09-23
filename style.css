@@ -1,51 +1,57 @@
-.forma{
-    display: flex;
-    justify-content: right;
-    margin-right: 150px;
-    margin-top: -40px;
+body{
+        font-family:monospace;
+        background-color: rgb(229, 217, 203);
 }
 
-.formularz{
-    padding-top: 20px;
-    padding-left: 100px;
-    width: 900px;
-    margin-left: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    align-items: center;
-    background-color:beige;
-}
-
-
-.buty{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100px;
-
-}
-
-.but2{
-    margin-right: 150px;
-    border: 3px solid green;
-    width: 150px;
-    height: 80px;
-}
-
-.but1{
-    border: 3px solid red;
-    width: 150px;
-    height: 80px;
-}
-
-.pp,.hh{
-    
+div{
     display: flex;
     justify-content: center;
-    text-align: center;
 }
 
-.hh{
-    color: blue;
+div.pizza{
+    align-items: center;
+    margin: 20px auto;
+}
+
+#calculate{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0;
+    background-color: grey;
+    margin: 50px auto;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+label {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+label:hover{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#result{
+    font-size: x-large;
+}
+
+img{
+    height: 400px;
+    margin-bottom: 50px;
+    transition: 1.5s;
+}
+
+img:hover{
+    transform: rotate(-30deg);
+}
+
+#namePizza{
+    justify-content: left;
+    font-size: 50px;
+    width: 100px;
+    color: rgb(77, 72, 67);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
